@@ -1,5 +1,5 @@
 {
-      "name": "Skyzu Robot",
+      "name": "Lurah Robot",
       "description": "A Powerful  Telegram group management bot with anime theme.",
       "keywords": [
          "telegram",
@@ -9,8 +9,8 @@
          "naorobot"
       ],
     
-   "logo":    "https://telegra.ph/file/56811b69cbcece20bbebf.jpg",  
-   "repository": "https://github.com/Skyzu/SkyzuRobot",
+   "logo":    "https://telegra.ph/file/dac0ade914cf0bce37be6.jpg",  
+   "repository": "https://github.com/Githupxxx/Lurahhgameinggg",
    "addons": [
           {
          "options": {
@@ -31,17 +31,17 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": "5390426960:AAG6YP1PSkcN2kGs61HqduoqvXXynH1yQPU"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "17301917"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "5b78094b7caf69ffecb108985b56e077"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
@@ -51,17 +51,17 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "2116587637"
+         "value": "1759830200"
      },
 
       "STRING_SESSION": {
          "description": "Fill with telethon string session.",
          "required": true,
-         "value": "" 
+         "value": "1BVtsOIgBu78MmdNXZTsyJGk5aYNa0UgD4-894ojmh--N5_RaZv28yHKYRI9ZKILaXCiuOXE3LK5S8F6ys8UdGaSBQV4U_FveJpgqmrZSVDdK8paAWv53h_ABRHUD_8UbVzKljuiagHUOPfyPbbZ7dXktTlMflOKAIMvQocpdic1agN86wYIJYGVEVFSxzk2GQD9Z66yTs2s0NKbJ3hBmUfu_DNLdRJGAA1IQ-OC-tfq9TG4JofZn4bs3rkegLl03GgX5_ieKGtCnR8VdKXsFkKz2g4OPHMvxzs-cp2POvRoVk8s7qr-m8Tf1jARb6-CPi3FDwvFo2QRYJHAuoho4iIMgO3QIUBI=" 
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
-        "value": ""
+        "value": "0e16361e-7145-41b6-b8b1-6cba573e4ff1"
       },
       "HEROKU_APP_NAME": {
         "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
@@ -69,27 +69,27 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot without the @",
-         "value": "SkyzuRobot"
+         "value": "mbahlurahubot"
       },
 
       "BOT_ID": {
          "description": "to get your bot_id using other bot or userbot",
-         "value": ""
+         "value": "5390426960"
       },
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "xflskyzu"
+         "value": "Zyrexcim"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "skyzusupport"
+         "value": "CIRCLEPOKE"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": ""
+         "value": "mongodb+srv://excimoon:Cimoon12344@cluster0.r6ykv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
       },
       "IBM_WATSON_CRED_URL": {
          "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
@@ -102,17 +102,17 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-100'",
          "required": true,
-         "value": "-1001626554919"
+         "value": "-1001569461918"
       },
       "ERROR_LOGS": {
          "description": "error logs channel to note down important bot errors events, make this public/private. ex: '-100'",
          "required": true,
-         "value": ""
+         "value": "-1001569461918"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001626554919"
+         "value": "-1001569461918"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -134,7 +134,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "2116587637"
+         "value": "1759830200"
      },
         "ARQ_API": {
             "description": "Get this from @ARQRobot.",
@@ -153,7 +153,7 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": ""
+         "value": "1759830200 1105877445"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
@@ -168,7 +168,7 @@
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": ""
+         "value": "1759830200 1105877445"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -187,7 +187,7 @@
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
          "required": false,
-         "value": ""
+         "value": "https://<appname>.herokuapp.com/"
       },
       "NO_LOAD": {
          "description": "Dont load these modules cause they shit, space separation",
@@ -206,7 +206,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "pm @iCBear"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
