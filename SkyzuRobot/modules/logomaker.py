@@ -42,7 +42,7 @@ def mediainfo(media):
     return m
 
 
-@register(pattern="^/logo ?(.*)")
+@register(pattern="/logo ?(.*)")
 async def logo_gen(event):
     xx = await event.reply("`Preparing your logo...`")
     name = event.pattern_match.group(1)
